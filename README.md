@@ -56,26 +56,59 @@ I am open to **Forward Deployed Engineer**, **Technical Solutions Engineer**, an
 
 ## What I Built
 
-Four products and three open-source tracks. Full case studies, architecture diagrams, and live demos are on the [website](https://shubham0086.github.io/MyPortfolio.github.io/).
+**19 repositories · 261+ automated tests · 3 shipped products · 5+ years ops & SLA ownership**
 
-**Products**
-- **WellnessInYou + BODH** : full-stack wellness platform (Next.js 15, Expo 54, CrewAI)
-- **Agentic SDLC** : 6-agent software development pipeline (private beta)
-- **Agentic OS** : outreach CRM with Instagram automation
-- **Adiyogi Books** : independent publishing brand (live)
+Full case studies, architecture diagrams, and live demos on the [portfolio site](https://shubham0086.github.io/MyPortfolio.github.io/) — which itself runs a live RAG chatbot grounded on these repos (ask it anything).
 
-**Open-source tracks** *(separate repositories, sharing the patterns with the community)*
-- **AI Systems Evolution** : the entry point. The same task solved at six levels of autonomy — code → single call → workflow → agent → team → swarm
-- **Agent Anatomy** : the atom. One agent, four removable organs (brain/hands/memory/loop). Toggle one off and watch it break
-- **Agentic Patterns** : the theory. Architectural guides for the problems above, with runnable Node and Python starters
-- **Agentic Systems** : the practice. 5 standalone runnable agent systems
-- **AgentKernel** : the infrastructure. 6 production engines, written in both Python and JavaScript
+### Products
+
+| Product | Stack | Status |
+|---------|-------|--------|
+| **WellnessInYou + BODH** — Full-stack AI wellness platform | Next.js 15, Expo 54, CrewAI, Gemini, Razorpay/Stripe | Live |
+| **Agentic SDLC** — 6-agent software development pipeline | Node.js, SQLite Blackboard, multi-LLM router, React+Vite | Private beta |
+| **Agentic OS** — Multi-agent outreach + content system | FastAPI, Redis, LangChain, Instagram automation | Internal |
+| **Adiyogi Books** — Independent publishing brand | Next.js, Prisma, Razorpay | Live |
+
+### Open-Source: Learn Track
+
+Foundations for anyone building agent systems from scratch.
+
+| Repo | What it teaches |
+|------|----------------|
+| [AI-Systems-Evolution](https://github.com/shubham0086/AI-systems-evolution) | The same task at 6 levels of autonomy — code → single call → workflow → agent → team → swarm |
+| [Agent-Anatomy](https://github.com/shubham0086/Agent-Anatomy) | One agent, four removable organs (brain/hands/memory/loop). Toggle one off, watch it break |
+
+### Open-Source: Solve Track
+
+Production patterns extracted from real systems. Each repo isolates one hard problem.
+
+| Repo | Problem solved | Tests |
+|------|---------------|-------|
+| [Agent-Scars](https://github.com/shubham0086/Agent-Scars) | Failure memory — agents that learn from past mistakes | 7 |
+| [Agent-Context](https://github.com/shubham0086/Agent-Context) | Dependency graphs to cut token waste on large codebases | 6 |
+| [Agent-Recall](https://github.com/shubham0086/Agent-Recall) | Cross-session solution memory with similarity retrieval | 9 |
+| [Agent-Routing](https://github.com/shubham0086/Agent-Routing) | Multi-provider LLM failover (NVIDIA → Groq → OpenRouter → Gemini) | 23 |
+| [Research-Agent](https://github.com/shubham0086/research-agent) | Web research + multi-source summarization pipeline | 9 |
+| [Content-Analyzer](https://github.com/shubham0086/content-analyzer) | URL → structured JSON extraction with AI analysis | 4 |
+| [Video-Engine-Starter](https://github.com/shubham0086/video-engine-starter) | Text-to-video orchestration with Remotion + AI directors | — |
+| [Agent-Constitution](https://github.com/shubham0086/agent-constitution) | Drift detection + anti-hallucination guardrails | 6 |
+| [MCP-Agent-Toolkit](https://github.com/shubham0086/mcp-agent-toolkit) | MCP server with blackboard, SCAR, and cache tools (node:sqlite) | 13 |
+| [RAG-Knowledge-Engine](https://github.com/shubham0086/rag-knowledge-engine) | Hybrid retrieval (BM25 + vector RRF) + cross-encoder rerank + RAGAS eval | 25 |
+
+### Open-Source: Integrate Track
+
+Complete systems and production templates.
+
+| Repo | What it is | Tests |
+|------|-----------|-------|
+| [Agentic-Patterns](https://github.com/shubham0086/agentic-patterns) | 7 architectural guides with runnable starters | — |
+| [Agentic-Systems](https://github.com/shubham0086/agentic-systems) | 5 complete standalone agent systems | — |
+| [AgentKernel](https://github.com/shubham0086/agentkernel) | 6 production engines in Python + JavaScript | — |
+| [Agentic-SaaS-Boilerplate](https://github.com/shubham0086/agentic-saas-boilerplate) | Billable multi-agent SaaS template — real WorkflowEngine, SSE queues, AgentRegistry | 22 |
 
 ---
 
 ## The Engineering Problems, and How I Solved Them
-
-These are the lessons that came out of building real systems alone, now documented and open-sourced:
 
 | Problem | What I built to solve it |
 |---------|--------------------------|
@@ -85,6 +118,8 @@ These are the lessons that came out of building real systems alone, now document
 | Brittle linear agent chains | DAG orchestration with Kahn's topological scheduling |
 | Agents drifting and repeating failures | Anti-drift reality files and a repeat-failure guard (SCAR) |
 | Prompt injection and secret leakage | Input and output guardrails, tested against real payloads |
+| RAG returning irrelevant chunks | Hybrid BM25 + vector retrieval with RRF fusion + cross-encoder rerank |
+| LLM provider downtime | 5-provider failover chain — any key missing is silently skipped |
 
 ---
 
@@ -95,7 +130,7 @@ These are the lessons that came out of building real systems alone, now document
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=github&logoColor=white)
 
-Static site. No framework, no build step. Hand-written HTML, CSS, and vanilla JavaScript with inline animated SVG diagrams. Loads in under a second.
+Static site. No framework, no build step. Hand-written HTML, CSS, and vanilla JavaScript with inline animated SVG diagrams. Loads in under a second. The portfolio chatbot runs as a Vercel serverless function — Gemini embeddings over a prebuilt 118-chunk index, generation on a 5-provider failover chain.
 
 ---
 
