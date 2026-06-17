@@ -6,7 +6,7 @@
 
 This repository hosts my personal portfolio. The best way to experience it is live, not as source files.
 
-## → [View the live portfolio](https://shubham0086.github.io/MyPortfolio.github.io/) ←
+## → [View the live portfolio](https://my-portfolio-github-io-beta-five.vercel.app/) ←
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-prajapati086)
 [![Email](https://img.shields.io/badge/Email-Hire%20Me-14b8a6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shubham.prajapati086@gmail.com)
