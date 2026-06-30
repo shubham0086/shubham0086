@@ -2,7 +2,7 @@
 
 # Shubham Prajapati
 
-### AI Systems Builder · Forward Deployed Engineer · India
+### AI Systems Builder · Agentic Architect · India
 
 This repository hosts my personal portfolio. The best way to experience it is live, not as source files.
 
@@ -10,7 +10,7 @@ This repository hosts my personal portfolio. The best way to experience it is li
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-prajapati086)
 [![Email](https://img.shields.io/badge/Email-Hire%20Me-14b8a6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Shubham.prajapati086@gmail.com)
-[![Open to Work](https://img.shields.io/badge/Status-Open%20to%20FDE%20%2F%20TSE%20Roles-10b981?style=for-the-badge)](mailto:Shubham.prajapati086@gmail.com)
+[![Open to Work](https://img.shields.io/badge/Status-Open%20to%20AI%20Engineer%20Roles-10b981?style=for-the-badge)](mailto:Shubham.prajapati086@gmail.com)
 
 </div>
 
@@ -50,7 +50,7 @@ Once those patterns were stable, I extracted them out of my private systems and 
               From first AI experiments to production systems and open-source patterns
 ```
 
-I am open to **Forward Deployed Engineer**, **Technical Solutions Engineer**, and **Founding Engineer** roles at API-first AI startups.
+I am open to **AI Engineer**, **LLM Engineer**, **Backend Engineering**, and **Founding Engineer** roles at API-first AI startups.
 
 ---
 
