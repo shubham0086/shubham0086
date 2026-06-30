@@ -42,7 +42,7 @@ Once those patterns were stable, I extracted them out of my private systems and 
               L1 Agent to SME to Team Lead to Acting Floor Manager
               250+ agents trained, new support vertical live in 6 months, 4 promotions
 
-2022 - 2024   EvoraIT Solution Pvt Ltd, Gurugram
+2022 - 2024   EvoraIT Solution Pvt Ltd, Bengaluru
               SAP L2 Support Specialist
               350 tickets/week, 98% SLA compliance, 95% MTTR improvement
 
